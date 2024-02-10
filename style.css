@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    /* Primary Color */
+    --primary-green: hsl(75, 94%, 57%);
+
+    /* Neutral Colors */
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-green: hsl(0, 0%, 20%);
+    --neutral-dark-grey: hsl(0, 0%, 12%);
+    --neutral-off-black: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body {
+    background-color: var(--neutral-off-black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    height: 560px;
+    width: 350px;
+    background-color: var(--neutral-dark-grey);
+    color: var(--neutral-white);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 30px 30px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 90px;
+}
+
+.heading h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.heading span {
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    margin-top: 8px;
+    color: var(--primary-green);
+}
+
+.heading p {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links li {
+    margin-bottom: 15px;
+}
+
+.links a {
+    display: block;
+    width: 290px;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--neutral-green);
+    color: var(--neutral-white);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover,
+.links a:focus {
+    background-color: var(--primary-green);
+    color: var(--neutral-off-black);
+}
+
+@media (max-width: 375px) and (max-width: 1439px) {
+    .container {
+        width: 330px;
+    }
+
+}
