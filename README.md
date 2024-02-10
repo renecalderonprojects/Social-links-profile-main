@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/renecalderonprojects/Social-links-profile-main)
+- Live Site URL: [Add live site URL here](https://renecalderonprojects.github.io/Social-links-profile-main/)
 
 ## My process
 
@@ -48,5 +48,5 @@ After some time out of web development because of work with back end technologie
 
 ## Author
 
-- Website - [Rene Francisco Calderon](https://www.your-site.com)
+- Website - [Rene Francisco Calderon](#)
 - Frontend Mentor - [Skliport](https://www.frontendmentor.io/profile/Skliport)
